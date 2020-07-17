@@ -1,0 +1,108 @@
+@font-face {
+	font-family:"nanum";
+	src:url("../fonts/NanumGothic.eot");
+	src:url("../fonts/NanumGothic.eot?#iefix") format("embedded-opentype"),
+	    url("../fonts/NanumGothic.woff") format("woff");
+}
+@font-face {
+	font-family:"nanumB";
+	src:url("../fonts/NanumGothicBold.eot");
+	src:url("../fonts/NanumGothicBold.eot?#iefix") format("embedded-opentype"),
+	    url("../../fonts/NanumGothicBold.woff") format("woff");
+}
+@font-face {
+	font-family:"nanumEB";
+	src:url("../fonts/NanumGothicExtraBold.eot");
+	src:url("../fonts/NanumGothicExtraBold.eot?#iefix") format("embedded-opentype"),
+	    url("../fonts/NanumGothicExtraBold.woff") format("woff");
+}
+
+@font-face {
+	font-family:"barun";
+	src:url("../fonts/NanumBarunGothic.eot");
+	src:url("../fonts/NanumBarunGothic.eot?#iefix") format("embedded-opentype"),
+	    url("../fonts/NanumBarunGothic.woff") format("woff");
+}
+@font-face {
+	font-family:"barunB";
+	src:url("../fonts/NanumBarunGothicBold.eot");
+	src:url("../fonts/NanumBarunGothicBold.eot?#iefix") format("embedded-opentype"),
+	    url("../fonts/NanumBarunGothicBold.woff") format("woff");
+}
+@font-face {
+  font-family: 'SFProDisplay-Ultralight';
+  src: url('../fonts/SFProDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Ultralight.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Ultralight.woff') format('woff'), url('../fonts/SFProDisplay-Ultralight.ttf')  format('truetype'), url('../fonts/SFProDisplay-Ultralight.svg#SFProDisplay-Ultralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Thin';
+  src: url('../fonts/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Thin.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Thin.woff') format('woff'), url('../fonts/SFProDisplay-Thin.ttf')  format('truetype'), url('../fonts/SFProDisplay-Thin.svg#SFProDisplay-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Semibold';
+  src: url('../fonts/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Semibold.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Semibold.woff') format('woff'), url('../fonts/SFProDisplay-Semibold.ttf')  format('truetype'), url('../fonts/SFProDisplay-Semibold.svg#SFProDisplay-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  src: url('../fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Regular.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Regular.woff') format('woff'), url('../fonts/SFProDisplay-Regular.ttf')  format('truetype'), url('../fonts/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SFProDisplay-Medium';
+  src: url('../fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Medium.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Medium.woff') format('woff'), url('../fonts/SFProDisplay-Medium.ttf')  format('truetype'), url('../fonts/SFProDisplay-Medium.svg#SFProDisplay-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SFProDisplay-Light';
+  src: url('../fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Light.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Light.woff') format('woff'), url('../fonts/SFProDisplay-Light.ttf')  format('truetype'), url('../fonts/SFProDisplay-Light.svg#SFProDisplay-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Heavy';
+  src: url('../fonts/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Heavy.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Heavy.woff') format('woff'), url('../fonts/SFProDisplay-Heavy.ttf')  format('truetype'), url('../fonts/SFProDisplay-Heavy.svg#SFProDisplay-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SFProDisplay-Bold';
+  src: url('../fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Bold.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Bold.woff') format('woff'), url('../fonts/SFProDisplay-Bold.ttf')  format('truetype'), url('../fonts/SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Black';
+  src: url('../fonts/SFProDisplay-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/SFProDisplay-Black.otf')  format('opentype'),
+	     url('../fonts/SFProDisplay-Black.woff') format('woff'), url('../fonts/SFProDisplay-Black.ttf')  format('truetype'), url('../fonts/SFProDisplay-Black.svg#SFProDisplay-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'JejuGothic';
+  src: url('../fonts/JejuGothicOTF.eot?#iefix') format('embedded-opentype'),  url('../fonts/JejuGothicOTF.otf')  format('opentype'),
+       url('../fonts/JejuGothicOTF.woff') format('woff'), url('../fonts/JejuGothicOTF.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

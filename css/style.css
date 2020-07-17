@@ -1,0 +1,1098 @@
+#header{
+	position: fixed;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    height: 90px;
+    z-index: 3;
+}
+#header .inner-wrap{
+	width: 1200px;
+	margin:auto;
+	position: relative;
+}
+#header .inner-wrap h1{
+	margin:19px 0;
+}
+#nav{
+	position: absolute;
+	right: 0;
+	top: 19px;
+}
+#nav #gnb{}
+#gnb li{
+	float: left;
+	margin-right: 56px;
+}
+#gnb li a{
+	font-size: 16px;
+	color: #002347;
+	padding-bottom:9px;
+	position: relative;
+}
+#gnb li a:after{
+	clear: both;
+	content: '';
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: #009ea7;
+	border-radius: 3px;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	display: none;
+}
+#gnb li a:hover{
+	color: #009ea7;
+}
+#gnb li a:hover:after{
+	display: block;
+}
+#nav_m{
+	display: none;
+}
+#nav_m .gnb_m{}
+#nav_m .gnb_m li{}
+#nav_m .gnb_m li a{}
+
+#visual{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+#visual h1{
+	width: 100%;
+	padding: 225px 0 10px;
+}
+#visual h1 img{
+	width: 380px;
+}
+#visual .in_btn{
+	margin:auto;
+}
+#visual .in_btn a{
+	display: block;
+	width: 220px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background-color: #009fa7;
+	margin:auto;
+}
+#visual .scroll_icon{
+	width: 22px;
+	margin: 149px auto 262px;
+}
+#visual .vs_bg{
+	position: absolute;
+	top: 18%;
+	width: 20%;
+	z-index: -1; 
+}
+#visual .leftBg{
+	left: 0;
+}
+#visual .rightBg{
+	right: 0;
+	top: 20%;
+}
+#visual .jeju_img img{
+	width: 763px;
+	margin-bottom:262px;
+}
+.rolling-wrapper{
+	position: relative;
+}
+.rolling-wrapper h1 {
+	text-align: center;
+	width: 100%;
+}
+.event_wrap {
+	width: 100%;
+	text-align: center;
+}
+.event_wrap .event_link {
+	width: 620px;
+	margin: auto;
+}
+.event_wrap .event_link li{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.event_wrap .event_link li a{
+	margin:auto; 
+	font-size: 20px;
+	color:#fff;
+	padding:5px 0;
+	border-radius: 30px;
+	background: #abadac;
+}
+.event_wrap .event_link li a em{
+	font-weight: bold;
+}
+.event_wrap .event_link li a{}
+.event_wrap .event_link li p{
+	display: block;
+	width: 100%;
+	height: 160px;
+	position: relative;
+}
+.event_wrap .event_link li:last-child a{
+	background-color:#00a4b0; 
+}
+.event_wrap .event_link li .hover_wrap{
+	width: 95%;
+	height: 200px;
+	margin-bottom: 45px;
+}
+.event_wrap .event_link li:first-child .hover_wrap {
+	border-ri ght: 1px solid #1d2b56;
+	padding-right: 5%;
+}
+.event_wrap .event_link li:first-child .hover_wrap:after{
+	clear: both;
+	content: '';
+	display: block;
+	width: 1px;
+	height: 150px;
+	background-color: #1d2b56;
+	position: absolute;
+	right: 0;
+	top: 55px;
+}
+.event_wrap .event_link li:last-child .hover_wrap{
+	padding-left: 5%;
+}
+.event_wrap .event_link li p img{
+	width: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: none;
+    margin-left: -40%;
+}
+.event_wrap .event_link li p img:nth-of-type(1){
+	display: block;
+}
+.event_wrap .event_link li:hover p img:nth-of-type(2){
+	display: block;
+	opacity: 1;
+}
+.event_wrap .event_link li a{
+	display: block;
+	width: 75%;
+	margin:auto;
+	text-align: center;
+}
+.event_wrap .event_link li a:hover{
+	opacity: 1;
+}
+.event_wrap .event_link li a img{
+	width: 60%;
+}
+
+
+#visual .visual_btn{
+	width: 100%;
+}
+#visual .visual_btn .prev{
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 300px;
+	left: 30px;
+	font-size: 20px;
+	z-index: 3;
+}
+#visual .visual_btn .next{
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 300px;
+	right: 30px;
+	font-size: 20px;
+	z-index: 3;
+}
+
+#container:after{
+	display: block;content: '';clear: both;
+}
+#container{
+	height: 100%;
+}
+#contents{
+	width:100%;
+}
+#contents .company_wrap{
+	width: 100%;
+	height: 900px;
+	background: url(../images/main/visual01.png) no-repeat;
+	background-size: cover;
+}
+#contents .company_wrap .company_mask{
+	width: 100%;
+	height: 900px;
+	background: rgba(8,8,8,0.7);
+	position: relative;
+}
+#contents .company_wrap .active{
+	background-color: rgba(0,0,0,0.7);
+}
+.company{
+	text-align: center;
+	color:#fff;
+}
+.company h2{
+	color: #fff;
+	font-size: 40px;
+	padding: 120px 0 33px;
+}
+.company h2 img{ 
+	margin-right:19px;
+}
+.company h2 span{}
+.company .cpn_txt{
+	font-size: 18px;
+	margin-bottom: 70px;
+	display: block;
+    width: 653px;
+    margin: 0 auto 70px;
+}
+.company_content ul{
+	width: 960px;
+	margin:auto;
+}
+.company_content ul li{
+	float: left;
+	width: 200px;
+	margin: 20px;
+}
+.company_content ul li a{
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.company_content ul .brand1 a .company_logo{
+	background: url(../images/main/logo2.png) no-repeat #fff;
+	background-size: 63px;
+	background-position: 50% 50%;
+}
+.company_content ul .brand2 a .company_logo{
+	background: url(../images/main/logo5.png) no-repeat #fff;
+	background-size: 134px;
+	background-position: 50% 50%;
+}
+.company_content ul .brand3 a .company_logo{
+	background: url(../images/main/logo7.png) no-repeat #fff;
+	background-size: 114px;
+	background-position: 50% 50%;
+}
+.company_content ul .brand4 a .company_logo{
+	background: url(../images/main/logo3.png) no-repeat #fff;
+	background-size: 113px;
+	background-position: 50% 50%;
+}
+.company_content ul .brand5 a .company_logo{
+	background: url(../images/main/evshop_logo.png) no-repeat #fff;
+	background-size: 113px;
+	background-position: 50% 50%;
+}
+.company_content ul .brand6 a .company_logo{
+	background: url(../images/main/logo8.png) no-repeat #fff;
+	background-size: 82px;
+	background-position: 50% 50%;
+}
+.company_content ul .brand7 a .company_logo{
+	background: url(../images/main/fenxianghanguo_logo.png) no-repeat #fff;
+	background-size: 135px;
+	background-position: 50% 50%;
+}
+.company_content ul .brand8 a .company_logo{
+	background: url(../images/main/dronepark_logo.png) no-repeat #fff;
+	background-size: 135px;
+	background-position: 50% 50%;
+}
+.company_content ul li a .company_logo{
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin:10px auto;
+	box-sizing: border-box;
+	border: 10px solid #60c2c9
+}
+.company_content ul li span{
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgba(96, 194, 201, 0.95);
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	line-height: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	transition: ease-out .5s;
+}
+.company_content ul li:hover span{
+	display: block;
+	text-decoration: underline;
+}
+.company_popup{
+	width: 940px;
+	background-color: #12c2cb;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -470px;
+	margin-top: -350px;
+	text-align: center;
+	display: none;
+	z-index: 2;
+}
+.popup_wrap_mask{
+	width: 800px;
+	overflow: hidden;
+	margin:0 70px;
+}
+.popup_wrap_mask .popup_wrapper{
+	position: relative;
+	left: 0;
+	width: 10000px;
+}
+.popup_wrap_mask .popup_wrapper .popup_wrap{
+	float: left;
+}
+.company_popup .close_btn{
+	display: block;
+	width: 27px;
+	height: 27px;
+}
+.company_popup .close_btn a{
+	display: block;
+	width: 27px;
+	height: 27px;
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+    right: -40px;
+}
+.company_popup h2{
+	color: #fff;
+	text-align: left;
+}
+.company_popup h2 img{
+	width: 102px;
+	margin-top:20px;
+}
+.company_popup h3{
+	font-size: 18px;
+	color: #fff;
+	text-align: left;
+	margin:20px 0 0;
+	line-height: 25px;
+}
+.company_popup .video_wrap{
+	width: 800px;
+	height: 450px;
+	margin: 24px auto 0;
+}
+.company_popup .video_wrap iframe{
+	width: 100%;
+	height: 100%;
+}
+.company_popup .moreBtn{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	height: auto;
+	padding-bottom:52px;
+	margin-top: 38px;
+	text-decoration: underline;
+}
+.company_popup .moreBtn:hover{
+}
+.company_popup .slide_btn{
+}
+.company_popup .slide_btn .prevBtn{
+	display: block;
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	left: 15px;
+	top:50%;
+	color: #fff;
+	font-size: 18px;
+}
+.company_popup .slide_btn .nextBtn{
+	display: block;
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	right: 15px;
+	top:50%;
+	color: #fff;
+	font-size: 18px;
+}
+.company_popup .slide_btn img{
+	width: 15px;
+}
+.jeju_info{
+	padding:262px 0;
+}
+.jeju_info .info01{
+	text-align: center;
+}
+.jeju_info .info01 h2{
+	font-size: 40px;
+	margin-bottom:30px;
+}
+.jeju_info .info01 p{
+	font-size: 18px;
+}
+.jeju_info .info01 img{
+	width: 268.7px;
+	margin:71.4px auto 126.5px;
+}
+.jeju_info .info02 {
+	text-align: center;
+}
+.jeju_info .info02 h2{
+	font-size: 40px;
+	margin-bottom:75px;
+}
+.jeju_info .info02 .jeju_benefit{
+	width: 850px;
+	margin:auto;
+}
+.jeju_info .info02 .jeju_benefit li{
+	float: left;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	background-size: 100%;
+	margin-right: 69.7px;
+	color:#fff;
+	line-height: 130px;
+	margin-bottom: 127.6px;
+}
+.jeju_info .info02 .jeju_benefit li:nth-child(1){
+	background: url(../images/main/benefit01.png) no-repeat;
+	background-size: 100%;
+}
+.jeju_info .info02 .jeju_benefit li:nth-child(2){
+	background: url(../images/main/benefit02.png) no-repeat;
+	background-size: 100%;
+}
+.jeju_info .info02 .jeju_benefit li:nth-child(3){
+	background: url(../images/main/benefit03.png) no-repeat;
+	background-size: 100%;
+}
+.jeju_info .info02 .jeju_benefit li:nth-child(4){
+	background: url(../images/main/benefit04.png) no-repeat;
+	background-size: 100%;
+	margin-right: 0;
+}
+.more_info_btn{
+	font-size: 20px;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+.more_info_btn:nth-of-type(2){
+	margin-right: 0;
+}
+.faq_wrap{
+	width: 100%;
+	background-image: linear-gradient(to bottom, #69c6cc, #6fbad6);
+	color:#fff;
+}
+.faq_wrap .inner-wrap{
+	width: 1200px;
+	margin:auto;
+	position: relative;
+	padding-bottom: 134px;
+}
+.faq_wrap .inner-wrap h2{
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	padding:90px 0 30px;
+}
+.faq_wrap .inner-wrap span{
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom:54px;
+}
+.faq_wrap .rolling_wrap_mask{
+	width: 1000px;
+	margin:auto;
+	overflow: hidden;
+	border-top:4px solid #fff;
+	border-bottom:2px solid #fff;
+}
+.faq_wrap .rolling_wrap_mask .roliing_wrap{
+	width: 10000000px;
+}
+.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling{
+	float: left;
+	width: 1000px;
+	position: relative;
+}
+.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li{
+	border-bottom:1px solid rgba(255,255,255,0.5);
+}
+.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .faqBtn{
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	padding:30px 0;
+}
+.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .show{
+	font-size: 16px;
+	line-height: 1.2;
+	padding-bottom:30px;
+	display: none;
+}
+.rolling_btn{}
+.rolling_btn a{
+	display: block;
+	width: 22px;
+	height: 44px;
+	position: absolute;
+	top: 50%;
+}
+.rolling_btn .prev_btn{
+	left: 0;
+}
+.rolling_btn .next_btn{
+	right: 0;
+}
+.rolling_btn a img{
+	width: 100%;
+}
+.hd{
+	display: none;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #12c2cb;
+}
+/* footer */
+#footer{
+	width: 100%;
+}
+#footer .inner-wrap{
+	width: 100%;
+	margin:52px auto 114px;
+	text-align: center;
+}
+#footer .inner-wrap .address{
+	font-size: 14px;
+	margin-bottom:15px;
+}
+#footer .inner-wrap .copyright{
+	font-size: 12px;
+}
+#footer .inner-wrap .copyright a{
+	font-size: 12px;
+}
+/* //footer */
+
+/* contact */
+.contact_cnt{
+	width:752px;
+	height: 100%;
+	position: relative;
+	margin:auto;
+	padding-top: 90px;
+}
+.contact_cnt h1{
+	margin: 145px auto 23px;
+	font-size: 34px;
+	color:#363636;
+}
+.contact_cnt span{
+	font-size: 20px;
+}
+.contact_cnt .contact_bar{
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+	margin: 70px auto 60px;
+}
+.contact_cnt .contact_form{}
+.contact_cnt .contact_form p{
+	margin-bottom: 26px;
+}
+.contact_cnt .contact_form p label{
+	display: inline-block;
+	width: 172px;
+	font-size: 16px;
+	color:#363636;
+}
+.contact_cnt .contact_form p input{
+	height: 54px;
+	background-color: #f8f8f8;
+	border: 1px solid #dcdcdc;
+}
+.contact_cnt .contact_form p em{
+	margin: 0 13px;
+}
+.contact_cnt .contact_form p .mail_c{
+	margin: 0 9px;
+	font- size: 16px;
+}
+.contact_txt{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.name, .company-name{
+	width: 570px;
+}
+.mobile_number1, .mobile_number2, .mobile_number3, .mailId{
+	width: 161px;
+}
+.mailAddress{
+	width: 366px;
+}
+.contact_cnt .contact_form .textarea{
+	width: 100%;
+	height: 174px;
+	background-color: #f8f8f8;
+	border: 1px solid #dcdcdc;
+	box-sizing: border-box;
+}
+.contact_cnt .submitBtn{
+	text-align: center;
+	margin: 60px auto 200px;
+}
+.contact_cnt .submitBtn .submit_btn{
+	width: 100%;
+	height: 70px;
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	background:#12c2cb;
+}
+/* //contact */
+
+.main{
+	width: 100%;
+	text-align: center;
+}
+.main .event-wrap{
+	width: 90%;
+	max-width: 1501px;
+	height: 801px;
+	margin:50px auto;
+	background: url(../images/visual/event01.png) no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.main .event-wrap .event-right{
+	width: 70%;
+	max-width: 960px;
+	height: 711px;
+	float: right;
+	background: url(../images/visual/event02.png) no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin: 50px 10px;
+}
+.main .event-wrap .event-right ul{
+	width: 90%;
+	margin:50px;
+}
+.main .event-wrap .event-right ul li{
+	position: relative;
+	float: left;
+	width: 45%;
+}
+.main .event-wrap .event-right ul li:first-child{
+	width: 48%;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+.main .event-wrap .event-right ul li img{
+	width: 100%;
+}
+.main .event-wrap .event-right ul li a{
+	display: block;
+	width: 50%;
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.main .event-wrap .event-right ul li a:nth-of-type(1){
+	float: left;
+	text-align: left;
+}
+.main .event-wrap .event-right ul li a img{
+	width: auto;
+	height: 68px;
+}
+.main a:hover{
+	opacity: 1;
+}
+
+/* //event */
+
+/*/////////////////////////
+//      mediaquery       //
+/////////////////////////*/
+
+@media (max-width: 1024px) {
+	#header .inner-wrap{width: 90%;}
+	#visual h1{font-size: 42px;padding:195px 0 42px;}
+	#visual p{font-size: 17px;}
+	#visual .vs_bg{wi dth: 217px;}
+	#visual .in_btn a{font-size: 19px;}
+	#visual .scroll_icon{width: 20px; margin:109px auto 132px;}
+	#visual .jeju_img img{width: 45%;margin-bottom:132px;}
+
+	.company h2{font-size: 35px;}
+	.company h2 img{height: 36px;}
+	.company .cpn_txt{font-size: 16px;width: 582px;}
+	.company_popup .close_btn a{right: 15px;top: 10px;}
+
+	.jeju_info{padding:132px 0;}
+	.jeju_info .info01 h2,.jeju_info .info02 h2{font-size: 35px;}
+	.jeju_info .info01 img{width: 168.7px;}
+
+	.faq_wrap .inner-wrap{width: 90%;}
+	.faq_wrap .inner-wrap h2{font-size: 35px;}
+	.faq_wrap .rolling_wrap_mask,.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling{width: 810px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .faqBtn{padding:25px 0;}
+	
+	.main .event-wrap{height: 591px;}
+	.main .event-wrap .event-right{height: 491px;}
+	.main .event-wrap .event-right ul{margin:20px auto;}
+	.main .event-wrap .event-right ul li a img{height: 53px;}
+}
+@media (max-width: 768px) {
+	#gnb li{margin-right: 38px;}
+
+	#visual h1{font-size: 36px;padding:160px 0 5px;}
+	#visual p{font-size: 15px;margin-bottom: 30px;}
+	#visual h1 img{width: 42%;}
+	#visual .in_btn a{height: 60px;line-height: 60px;font-size: 18px;}
+	#visual .scroll_icon{width: 18px;margin:59px auto 72px;}
+	#visual .jeju_img img{margin-bottom: 72px;}
+	.event_wrap .event_link{width: 60%;}
+	.event_wrap .event_link li .hover_wrap{height: 150px;}
+	.event_wrap .event_link li p{height: 100px;}
+	.event_wrap .event_link li:first-child .hover_wrap:after{height: 100px;}
+	.event_wrap .event_link li a{font-size: 18px;}
+
+	#contents .company_wrap{height: 1030px;}
+	#contents .company_wrap .company_mask{height: 1030px;}
+	.company h2{font-size: 30px;padding:90px 0 20px;}
+	.company h2 img{height: 33px;}
+	.company_content ul{width: 90%;}
+	.company .cpn_txt{margin-bottom: 50px;}
+	.company_popup{width: 692px;margin-left:-45%;}
+	.popup_wrap_mask{width: 580px; margin:0 56px;}
+	.company_popup .video_wrap{width: 580px;height: 290px;}
+	.company_popup .video_wrap iframe{width: 580px;height: 290px;}
+	.company_popup .close_btn a{right: 15px;top: 10px;}
+	.company_content ul li{margin: 15px;}
+	.hd{display: block;}
+	.startBtn{color:#fff; text-align: center;line-height: 200px;font-size: 22px;}
+
+	.jeju_info .info02 .jeju_benefit{width: 90%;}
+	.jeju_info .info02 .jeju_benefit li{margin-right: 16.7px;}
+	.faq_wrap .inner-wrap h2{padding: 80px 0 20px;}
+	.faq_wrap .rolling_wrap_mask, .faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling{width: 590px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .faqBtn{font-size: 18px;padding: 20px 0;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .show{font-size: 15px;}
+	
+	/* contact */
+	.contact_cnt{width: 75%;}
+	.contact_cnt h1{font-size: 30px; margin: 75px auto 13px;}
+	.contact_cnt span{font-size: 18px;}
+	.contact_cnt .contact_bar{margin: 60px auto 50px;}
+	.contact_cnt .contact_form p label{width: 20%;}
+	.name, .company-name{width: 78%;}
+	.mobile_number1, .mobile_number2, .mobile_number3, .mailId{width: 21%;}
+	.mailAddress{width: 50%;}
+	.contact_cnt .submitBtn{margin: 60px auto 110px;}
+
+	.main .event-wrap{height: 461px; margin:40px auto; }
+	.main .event-wrap .event-right{width: 75%; height: 401px;margin:30px 10px;}
+	.main .event-wrap .event-right ul{margin: 30px auto;}
+	.main .event-wrap .event-right ul li a{margin-top: 20px;}
+	.main .event-wrap .event-right ul li a img{height: 40px;}
+
+}
+@media (max-width: 576px) {
+	#gnb li{margin-right: 17px;}
+	#visual h1{font-size: 27px;padding-top:120px;}
+	#visual p{margin-bottom: 15px;}
+	.event_wrap .event_link{width: 75%;}
+	.event_wrap .event_link li .hover_wrap{height: 100px;}
+	.event_wrap .event_link li:first-child .hover_wrap:after{top: 17px;}
+
+	.company_content ul{width: 82%;}
+	.company .cpn_txt{font-size: 13px;width: 472px;}
+	.company h2{font-size: 26px;}
+	.company h2 img{height: 24px;}
+	.company_popup{width: 90%;margin-top: -223px;position: fixed;}
+	.popup_wrap_mask{width: 408px;margin:0 10%;}
+	.company_popup .video_wrap{width: 408px;height: 204px;}
+	.company_popup .video_wrap iframe{width: 408px;height: 204px;}
+	.company_popup h3{font-size: 13px;}
+	.company_popup .moreBtn{margin-top: 28px;}
+	#contents .company_wrap{height: 1300px;}
+	#contents .company_wrap .company_mask{height: 1300px;}
+	.hd{display: none;}
+	.event_wrap .event_link li a{width: 95%;font-size: 14px;margin-bottom: 10px;}
+
+	.jeju_info{padding:82px 0;}
+	.jeju_info .info01 img{margin:71.4px auto 96.5px;}
+	.jeju_info .info01 h2, .jeju_info .info02 h2{font-size: 26px;}
+	.jeju_info .info01 p{font-size: 15px;}
+	.jeju_info .info02 .jeju_benefit{width: 80%;}
+	.jeju_info .info02 .jeju_benefit li{width: 45%; height: 180px;line-height: 180px;margin-bottom: 77.6px;margin-right: 31.7px;}
+	.jeju_info .info02 .jeju_benefit li:nth-child(1){margin-bottom:27.6px;}
+	.jeju_info .info02 .jeju_benefit li:nth-child(2){margin-bottom:27.6px;margin-right:0;}
+	
+	.faq_wrap .inner-wrap h2{font-size: 26px;}
+	.faq_wrap .rolling_wrap_mask, .faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling{width: 420px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .faqBtn{font-size: 16px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .show{font-size: 14px;}
+
+	#footer .inner-wrap{margin:42px auto 44px;}
+	#footer .inner-wrap .address{font-size: 12px;margin-bottom: 7px;}
+	#footer .inner-wrap .copyright{font-size: 10px;}
+
+	/* contact */
+	.contact_cnt h1{font-size: 28px;margin: 55px auto 3px;}
+	.contact_cnt span{font-size: 16px;}
+	.contact_cnt .contact_form p label{width: 25%;}
+	.name, .company-name{width: 73%;}
+	.contact_cnt .contact_form p em{margin: 0 5px;}
+	.mobile_number1, .mobile_number2, .mobile_number3, .mailId{width: 20%;}
+	.contact_cnt .contact_form p .mail_c{margin: 0 2px;}
+	.mailAddress{width: 46%;}
+	.contact_cnt .submitBtn .submit_btn{font-size: 18px;}
+
+	.main .event-wrap{width: 100%;height: 351px;margin:0;}
+	.main .event-wrap .event-right{height: 301px;margin: 25px 10px;}
+	.main .event-wrap .event-right ul{margin:10px auto;}
+	.main .event-wrap .event-right ul li a{margin-top: 10px;}
+	.main .event-wrap .event-right ul li a img{height: 34px;}
+}
+@media (max-width: 480px) {
+	#nav{display: none;}
+	#header .inner-wrap h1{text-align: center;}
+	#visual h1{font-size: 24px;}
+	#visual .vs_bg{width: 17%;}
+	#visual p{font-size: 13px;}
+	#visual h1 img{width: 54%;}
+	#visual .jeju_img img{width: 56%;}
+	.event_wrap .event_link li p{height: 65px;}
+	#visual .scroll_icon{margin: 49px auto 49px;}
+	.company h2{font-s ize: 21px;padding:70px 0 20px;}
+	.company h2 img{height: 22px;}
+	.company .cpn_txt{display: block;width: 77%;margin:0 auto 40px;}
+	.company_content ul{width: 87%;}
+	.company_content ul li{width: 170px;margin:8px;}
+	.company_content ul li:nth-child(even){margin-right: 0;}
+	.company_content ul li:nth-child(odd){margin-left: 0;}
+	.company_content ul .brand5,.company_content ul .brand7{margin:8px !important;margin-left: 0 !important;}
+	.company_content ul .brand6,.company_content ul .brand8{margin:8px !important;margin-right: 0 !important;}
+	.company_content ul li a .company_logo{width: 160px;height: 160px;}
+	.company_content ul li span{width: 160px;height: 160px;line-height: 165px;font-size: 18px;}
+	.popup_wrap_mask{margin:0 auto;width: 308px;}
+	.company_popup h2 img{width: 92px;margin-top:0;}
+	.company_popup h3{width: 308px;}
+	.company_popup .video_wrap{width: 308px;height: 154px;}
+	.company_popup .video_wrap iframe{width: 308px;height: 154px;}
+	.company_popup .moreBtn{font-size: 18px;padding-bottom:22px;margin-top: 18px;}
+	.company_popup .slide_btn .prevBtn{left: 0;}
+	.company_popup .slide_btn .nextBtn{right: 0;}
+
+	.company_content ul .brand1 a .company_logo{background-size: 54px;}
+	.company_content ul .brand2 a .company_logo{background-size: 104px;}
+	.company_content ul .brand3 a .company_logo{background-size: 94px;}
+	.company_content ul .brand4 a .company_logo{background-size: 93px;}
+	.company_content ul .brand5 a .company_logo{background-size: 78px;}
+	.company_content ul .brand6 a .company_logo{background-size: 62px;}
+	.company_content ul .brand7 a .company_logo{background-size: 105px;}
+	.company_content ul .brand8 a .company_logo{background-size: 105px;}
+
+	#contents .company_wrap{height: 1100px;}
+	#contents .company_wrap .company_mask{height: 1100px;}
+	.company_popup .close_btn a{right: 10px;}
+
+	.more_info_btn{width:100%;margin-right: 0;display: block;margin-bottom:15px;}
+
+	.jeju_info .info01 h2, .jeju_info .info02 h2{fon t-size: 21px;}
+	.jeju_info .info01 p{display: block;width: 88%;margin:auto;font-size: 14px;}
+	.jeju_info .info02 .jeju_benefit li{height: 132px; line-height: 132px;margin-right: 21.7px;}
+	.jeju_info .info02 .jeju_benefit li:nth-child(1){margin-bottom: 17.6px;}
+	.jeju_info .info02 .jeju_benefit li:nth-child(2){margin-bottom: 17.6px;}
+	.faq_wrap .inner-wrap{width: 95%;padding-bottom: 84px;}
+	.faq_wrap .inner-wrap h2{padding:40px 0 10px;}
+	.faq_wrap .inner-wrap span{font-size: 16px;margin-bottom: 24px;}
+	.faq_wrap .rolling_wrap_mask, .faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling{width:316px;}
+	.rolling_btn a{width: 16px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .faqBtn{font-size: 15px;}
+
+	#footer .inner-wrap .address{display: block;width: 75%;margin:0 auto 7px;}
+	#footer .inner-wrap .copyright{display: block;width: 80%; margin:auto;}
+
+	/* contact */
+	.contact_cnt h1{font-size: 26px; margin: 35px auto 3px;}
+	.contact_cnt span{font-size: 16px;}
+	.contact_cnt .contact_bar{margin: 40px auto 30px;}
+	.contact_cnt .contact_form p label{width: 100%;margin-bottom: 15px;}
+	.name, .company-name{width: 100%;}
+	.mobile_number1, .mobile_number2, .mobile_number3{width: 27%;}
+	.mailId{width: 40%;}
+	.mailAddress{width: 49%;}
+
+	.main .event-wrap{width: 100%;height: 251px;margin:0;}
+	.main .event-wrap .event-right{height: 221px;margin:15px 10px;}
+	.main .event-wrap .event-right ul{margin:10px auto;}
+	.main .event-wrap .event-right ul li a{margin-top: 10px;}
+	.main .event-wrap .event-right ul li a img{height: 25px;}
+}
+@media (max-width: 380px) {
+	#visual .vs_bg{width: 14%;top:21%;}
+	#visual .rightBg{top:23%;}
+	#visual .jeju_img img{width: 64%;}
+	#visual .scroll_icon{width: 14px;}
+	.event_wrap .event_link li:first-child .hover_wrap:after{height: 81px;}
+	.event_wrap .event_link li p{height: 55px;}
+	.event_wrap .event_link li .hover_wrap{height: 90px;}
+
+	#contents .company_wrap{height: 960px;}
+	#contents .company_wrap .company_mask{height: 960px;}
+	.company h2{font-size: 24px; padding:55px 0 10px;}
+	.company_content ul{width: 79%;}
+	.company_content ul li{margin:7px;width: 140px;}
+	.company_content ul li a .company_logo{width: 140px;height: 140px;}
+	.company_content ul li span{width: 140px;height: 140px;line-height: 145px;font-size: 16px;}
+	.company_content ul .brand5,.company_content ul .brand7{margin:7px !important;margin-left: 0 !important;}
+	.company_content ul .brand6,.company_content ul .brand8{margin:7px !important;margin-right: 0 !important;}
+	.company .cpn_txt{width:85%;margin:0 auto 30px;}
+
+	.company_popup{margin-top:-173px;}
+	.popup_wrap_mask{width: 278px;}
+	.company_popup h3{width: 278px;}
+	.company_popup .video_wrap{width: 278px;}
+	.company_popup .video_wrap iframe{width: 278px;}
+
+	.jeju_info .info01 h2, .jeju_info .info02 h2{font-size: 24px;}
+	.jeju_info .info01 p{width: 89%;font-size: 13px;}
+	.jeju_info .info02 h2{margin-bottom:65px;}
+	.jeju_info .info02 .jeju_benefit li{height: 122px;line-height: 114px;}
+	.more_info_btn{font-size: 19px;}
+	.faq_wrap .inner-wrap h2{font-size: 24px;}
+	.faq_wrap .inner-wrap span{font-size: 14px;}
+	.faq_wrap .rolling_wrap_mask, .faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling{width: 296px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .faqBtn{padding:15px 0;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .show{padding-bottom:15px;}
+	/* contact */
+	.contact_cnt{width: 80%;}
+	.contact_cnt h1{font-size: 24px;}
+	.contact_cnt span{font-size: 15px;}
+	.contact_cnt .contact_form p em{margin: 0 4px;}
+	.contact_cnt .contact_form p label{font-size: 15px;}
+	.contact_cnt .submitBtn .submit_btn{height: 65px;}
+
+	.main .event-wrap .event-right ul{margin: 15px auto;}
+	.main .event-wrap .event-right ul li a img{height: 23px;}
+}
+@media (max-width: 360px){
+	.company_content ul{width: 82%;}
+	.jeju_info .info01 p{width: 93%;}
+
+	/* contact */
+	.mailAddress{width: 48%;}
+
+	.main .event-wrap .event-right ul{margin:21px auto;}
+}
+@media (max-width: 320px) {
+	.event_wrap .event_link li p{height: 45px;}
+	.event_wrap .event_link li .hover_wrap{height: 75px;}
+	#visual .scroll_icon{margin: 40px auto;}
+	.company h2{font-size: 22px;}
+	.company h2 img{margin-right: 10px;}
+	.company .cpn_txt{width: 75%;}
+	.company_content ul{width: 92%;}
+	.popup_wrap_mask{width: 230px;}
+	.company_popup h3{width: 230px;}
+	.company_popup .video_wrap{width: 230px;height: 115px;margin:15px auto 0;}
+	.company_popup .video_wrap iframe{width: 230px;height: 115px;}
+	.company_popup .slide_btn .prevBtn{left: 0;}
+	.company_popup .slide_btn .nextBtn{right: 0;}
+	.company_popup .moreBtn{font-size: 17px;}
+	.jeju_info{padding:62px 0;}
+	.jeju_info .info02 h2{margin-bottom: 55px;}
+	.jeju_info .info01 h2, .jeju_info .info02 h2{font-size: 22px;}
+	.jeju_info .info01 p{width: 76%;}
+	.jeju_info .info01 img{width: 141.7px;margin:51.4px auto 76.5px;}
+	.jeju_info .info02 .jeju_benefit li{width: 47%;height: 108px;line-height: 108px; margin-right: 11.7px;margin-bottom:57.6px;}
+	.more_info_btn{font-size: 18px;}
+	.faq_wrap .inner-wrap h2{font-size: 22px;}
+	.faq_wrap .rolling_wrap_mask, .faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling{width: 246px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .faqBtn{padding:10px 0;font-size: 14px;}
+	.faq_wrap .rolling_wrap_mask .roliing_wrap .faq_rolling li .show{font-size: 13px;}
+	#footer .inner-wrap .address{width: 78%;}
+	.event_wrap .event_link li a{font-size: 13px;}
+
+	/* contact */
+	.contact_cnt .contact_form p em{margin: 0 2px;}
+	.contact_cnt .contact_form p .mail_c{margin: 0 1px;}
+	.contact_cnt .submitBtn .submit_btn{font-size: 16px;}
+
+	.main .event-wrap .event-right ul{margin:29px auto;}
+	.main .event-wrap .event-right ul li a img{height: 20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

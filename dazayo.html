@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<meta charset="utf-8" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>다자요</title>
+<meta name="description" content="다자요">
+<meta name="keywords"    content="다자요">
+<meta name="author"      content="VRMaker">
+<meta property="og:type" content="website">
+<meta property="og:title" content="제이스타트업 다자요">
+<meta property="og:description" content="제주관광의 새로움을 펼치는 J-Start Up">
+<meta property="og:url" content="http://www.jstartup.kr/dazayo.html">
+<link rel="canonical" href="http://www.jstartup.kr/dazayo.html">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="build/css/import.css" type="text/css"/> 
+<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800&amp;subset=korean" rel="stylesheet">
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6ccfaa5107582b776937389571430369"></script>
+<!--[if lt IE 9]><script src="js/IE9.js"></script><![endif]-->     
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]--> 
+</head>
+  
+<body> 
+  <div id="sikpNav" class="hide">
+	<p><a href="#contents">본문바로가기</a></p>
+	<p><a href="#gnb">메뉴바로가기</a></p>	
+</div> 
+<header id="header" class="cf">
+	<div class="inner-wrap cf">
+   		<h1 class="dazayo_hd">
+   			<a href="index.html"><img src="build/images/dazayo_logo.png" alt="dazayo_logo" width="108"></a>  
+   		</h1>
+ 	</div> <!-- //.inner-wrap -->
+</header> <!-- //#header -->
+<div id="visual" class="dazayo_visual">
+	<div class="visual_mask">
+		<h1>
+			새집 줄게<br/>
+			헌집 다오
+		</h1>
+	</div>
+</div>
+<div id="container">
+	<section id="contents">
+		<div class="dazayo_contents">
+		<h2>
+			빈집을 공간으로 재생하고 제주도에 나만의 집을 소유해 보세요<br/>
+			다자요가 제안하는 테마로 고민없이 제주도를 여행해 보세요.
+		</h2>
+		<p class="bar"></p>
+		<div class="dazayo_item">
+			<ul class="itemName cf">
+				<li>
+					<a href="javascript:" class="item_tablinks active" onclick="openItem(event, 'item01')">
+						도순 돌담집
+					</a>
+				</li>
+				<li>
+					<a href="javascript:" class="item_tablinks" onclick="openItem(event, 'item02')">
+						애월 미하스
+					</a>
+				</li>
+			</ul>
+			<div id="item01" class="item_wrap">
+				<h3>
+					빈집 프로젝트로 탄생한 도순 돌담집은<br/>
+					제주스러운 돌담과 풍경, 제대로된 제주의 자연 그대로를 즐기실 수 있습니다.
+				</h3>
+				<ul class="items cf">
+					<li><img src="build/images/dazayo09.png" alt="dazayo09"></li>
+					<li><img src="build/images/dazayo10.png" alt="dazayo10"></li>
+					<li><img src="build/images/dazayo11.png" alt="dazayo11"></li>
+					<li><img src="build/images/dazayo12.png" alt="dazayo12"></li>
+
+					<li><img src="build/images/dazayo13.png" alt="dazayo13"></li>
+					<li><img src="build/images/dazayo14.png" alt="dazayo14"></li>
+					<li><img src="build/images/dazayo15.png" alt="dazayo15"></li>
+					<li><img src="build/images/dazayo16.png" alt="dazayo16"></li>
+				</ul>
+			</div>
+			<div id="item02" class="item_wrap">
+				<h3>
+					제주시내가 반경 5km내외의 거리로 선호도가 높은 지역이며,<br/>
+					제주의 청량하고 향긋한 감귤밭을 미하스 안에서 감상하실 수 있습니다.
+				</h3>
+				<ul class="items cf">
+					<li><img src="build/images/dazayo01.png" alt="dazayo01"></li>
+					<li><img src="build/images/dazayo02.png" alt="dazayo02"></li>
+					<li><img src="build/images/dazayo03.png" alt="dazayo03"></li>
+					<li><img src="build/images/dazayo04.png" alt="dazayo04"></li>
+
+					<li><img src="build/images/dazayo05.png" alt="dazayo05"></li>
+					<li><img src="build/images/dazayo06.png" alt="dazayo06"></li>
+					<li><img src="build/images/dazayo07.png" alt="dazayo07"></li>
+					<li><img src="build/images/dazayo08.png" alt="dazayo08"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="dazayo_map">
+			<h1>오시는 길</h1>
+			<span>제주시 애월읍 광령2길55 애월미하스4동</span>
+			<div id="map3" style="width:900px;height:500px;margin:auto;"></div>
+
+			
+			<script>
+			var mapContainer = document.getElementById('map3'), // 지도를 표시할 div 
+			    mapOption = { 
+			        center: new daum.maps.LatLng(33.454553, 126.431323), // 지도의 중심좌표 
+			        level: 3 // 지도의 확대 레벨
+			    };
+
+			// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+			var map = new daum.maps.Map(mapContainer, mapOption); 
+			</script>
+		</div>
+		<div class="ceo">
+			<!-- <h2>MY HOME IS YOUR HOME</h2> -->
+			<p class="ceo_txt">유휴자원을 유용한 사업화 공간으로 재생하고 공간을 통해 다양한 비즈니스 모델로 브랜딩 합니다.</p>
+			<ul class="ceo_cnt ceo1 cf">
+				<li>
+					<img src="build/images/dazayo_ceo.png" alt="dazayo_ceo">
+					<span>Sungjoon Nam</span>
+					<p>CEO</p>
+				</li>
+			</ul>
+			<p class="brandBtn_wrap">
+				<img src="build/images/dazayo_logo.png" alt="dazayo_logo">
+				<span>빈집 프로젝트</span>
+			</p>
+			<p class="email"><strong>이메일</strong> : info@dazayo.com</p>
+			<p class="call"><strong>대표번호</strong> : 070-4437-8399</p>
+			<ul class="sns_wrap sns_wrap3 cf">
+				<li><a href="http://www.facebook.com/dazayoCom/" target="_blank"><img src="build/images/facebook.png" alt="facebook" width="12"></a></a></li>
+				<li><a href="http://www.instagram.com/dazayo_jeju" target="_blank"><img src="build/images/instagram.png" alt="instagram" width="26"></a></a></li>
+				<li><a href="https://www.youtube.com/channel/UC7cOPrFiIRhku2fWCvfD5XQ" target="_blank"><img src="build/images/youtube.png" alt="youtube" width="34.7"></a></a></li>
+			</ul>
+			<a href="https://xn--2o2b91i1rj1vbwvtzkd.com/" class="webLink">다자요 바로가기</a>
+		</div>
+	</div> <!-- //.dazayo_contents -->
+	</section><!-- //#contents -->
+</div><!-- //#container -->
+<footer id="footer">
+	<div class="inner-wrap cf">
+		<p class="address">제주특별자치도 제주시 선덕로 23(연동)  제주웰컴센터 Tel:064-740-6000 Fax : 064-740-67090</p>
+		<p class="copyright">Copyright 2018 National Research Institute of Cultural Heritage. <a href="http://vrmaker.io" style="color:blue;" target="_blank">Designed by VRMaker</a></p>
+	</div>
+</footer> <!-- #footer -->
+
+
+
+  <script type="text/javascript" src="js/jquery.js"> </script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"> </script>   
+  <script type="text/javascript" src="js/prefixfree.js"> </script>
+  <script type="text/javascript" src="js/common.js"> </script>
+  <script type="text/javascript">
+  	function openItem(evt, tourName) {
+  	    var i, item_wrap, item_tablinks;
+  	    item_wrap = document.getElementsByClassName("item_wrap");
+  	    for (i = 0; i < item_wrap.length; i++) {
+  	        item_wrap[i].style.display = "none";
+  	    }
+  	    item_tablinks = document.getElementsByClassName("item_tablinks");
+  	    for (i = 0; i < item_tablinks.length; i++) {
+  	        item_tablinks[i].className = item_tablinks[i].className.replace(" active", "");
+  	    }
+  	    document.getElementById(tourName).style.display = "block";
+  	    evt.currentTarget.className += " active";
+  	}
+
+  </script>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

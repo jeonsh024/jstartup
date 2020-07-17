@@ -1,0 +1,1279 @@
+#header{
+	width: 100%;
+}
+#header .inner-wrap {
+	text-align: center;
+	width: 1200px;
+	margin:auto;
+	height: 90px;
+	position: relative;
+}
+#header .inner-wrap a{}
+#header .inner-wrap a img{
+	margin:23px auto;
+}
+#header .inner-wrap .left_logo img{
+	position: absolute;
+	left: 0;
+}
+#header .inner-wrap .right_logo img{
+	position: absolute;
+	right: 0;
+}
+/* footer */
+#footer{
+	width: 100%;
+	margin-top: 267px;
+}
+#footer .inner-wrap{
+	width: 100%;
+	margin:52px auto 114px;
+	text-align: center;
+}
+#footer .inner-wrap .address{
+	font-size: 14px;
+	margin-bottom:15px;
+  font-family: 'JejuGothic';
+}
+#footer .inner-wrap .copyright{
+	font-size: 12px;
+  font-family: 'JejuGothic';
+}
+#footer .inner-wrap .copyright a{
+	font-size: 12px;
+  font-family: 'JejuGothic';
+}
+/* //footer */
+
+#visual{
+	width: 100%;
+}
+#visual .visual_mask{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.discover_jeju_visual{
+	width: 100%;
+	background: url(../images/discoverjeju_visual.png) no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+#visual h1{
+	text-align: center;
+	line-height: 720px;
+	color: #fff;
+	font-size: 35px;
+}
+#container:after{
+	display: block;content: '';clear: both;
+}
+#container{
+	height: 100%;
+}
+#contents{
+	width:100%;
+}
+#contents h2{
+	text-align: center;
+	margin:215px auto 70px;
+	font-size: 22px;
+	color: #363636;
+}
+#contents .bar{
+	display: block;
+	margin:auto;
+	width: 72px;
+	height: 4px;
+	background-color: #000000;
+}
+.discoverjeju_contents h2{
+	font-family: 'Nanum Myeongjo';
+}
+.pack{}
+.pack ul{
+	width: 1000px;
+	margin:114px auto 218px;
+}
+.pack ul li{
+	float: left;
+	width: 480px;
+	height: 380px;
+	text-align: center;
+	background-size: cover;
+	margin-bottom:40px;
+}
+.pack ul li .mask{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.45);
+	color: #fff;
+}
+.jeju_bg1{
+	background: url(../images/jeju1.png) no-repeat;
+	margin-right: 40px;
+}
+.jeju_bg2{
+	background: url(../images/jeju2.png) no-repeat;
+}
+.jeju_bg3{
+	background: url(../images/jeju3.png) no-repeat;
+	margin-right: 40px;
+}
+.jeju_bg4{
+	background: url(../images/jeju4.png) no-repeat;
+}
+.pack ul li a img{
+	margin:67px auto 37px;
+	width: 100px;
+}
+.pack ul li a h3{
+	font-size: 34px;
+	color: #fff;
+	margin-bottom:20px;
+	line-height: 1;
+	position: relative;
+	font-family: 'Nanum Myeongjo';
+}
+.pack ul li a .discover_title:after{
+	clear: both;
+	display: block;
+	content: '';
+	width: 172px;
+	height: 1px;
+	background-color: #fff;
+	opacity: .5;
+	position: absolute;
+	left: 157px;
+	bottom: 2px;
+}
+.pack ul li:nth-child(2) a .discover_title:after{
+	width: 127px;
+	left: 176px;
+}
+.pack ul li:nth-child(3) a .discover_title:after{
+	width: 239px;
+	left: 122px;
+}
+.pack ul li:nth-child(4) a .discover_title:after{
+	width: 204px;
+	left: 138px;
+}
+.pack ul li a span{
+	display: block;
+	font-size: 16px;
+	margin-bottom:52px;
+	line-height: 1.3;
+	font-family: 'Nanum Myeongjo';
+}
+.pack ul li a p{
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Nanum Myeongjo';
+}
+#contents .ceo{}
+#contents .ceo h2{
+	font-size: 50px;
+	margin:218px auto 50px;
+}
+#contents .ceo .ceo_txt{
+	font-size: 20px;
+	text-align: center;
+}
+.discoverjeju_contents h2{
+	font- size: 56px !important;
+}
+.discoverjeju_contents .ceo .ceo_txt{
+	font-family: 'Nanum Myeongjo';
+}
+#contents .discoverjeju_contents .ceo h2{
+	font-family: 'georgia-italic';
+	font-size: 56px;
+}
+.ceo_cnt{
+	width: 500px;
+	margin:auto;
+}
+.ceo_cnt li{
+	float: left;
+	margin-right: 100px;
+	width: 200px;
+	text-align: center;
+}
+.ceo_cnt li:last-child{
+	margin-right: 0;
+}
+.ceo_cnt li img{
+	width: 200px;
+	margin: 100px auto 30px;
+}
+.ceo_cnt li span{
+	display: block;
+	font-size: 24px;
+	color: #363636;
+	margin-bottom:20px;
+}
+.discoverjeju_contents .ceo_cnt li span{
+	font-family: 'georgia-italic';
+}
+.ceo_cnt li p{
+	font-size: 14px;
+	color: #363636;
+}
+.discoverjeju_contents .ceo_cnt li p{
+	font-family: 'georgia-italic';
+}
+.ceo1{
+	width: 200px;
+}
+.ceo .discoverBtn_wrap{
+	display: block;
+	width: 186px;
+	text-align: center;
+	margin: 117px auto 60px;
+	position: relative;
+}
+.ceo .discoverBtn_wrap img{
+	width: 180px;
+	margin-bottom: 20px;
+}
+.ceo .discoverBtn_wrap span{
+	font-size: 14px;
+	color: #363636;
+	font-family: 'Nanum Myeongjo';
+}
+.ceo .discoverBtn_wrap:before{
+	display: block;
+	content: '';
+	clear: both;
+	width: 120px;
+	height: 1px;
+	background-color: #cfcfcf;
+	position: absolute;
+	left: -130px;
+	bottom:10px;
+}
+.ceo .discoverBtn_wrap:after{
+	display: block;
+	content: '';
+	clear: both;
+	width: 120px;
+	height: 1px;
+	background-color: #cfcfcf;
+	position: absolute;
+	right: -130px;
+	bottom:10px;
+}
+.ceo .brandBtn_wrap{
+	display: block;
+	width: 186px;
+	text-align: center;
+	margin: 117px auto 60px;
+	position: relative;
+}
+.ceo .brandBtn_wrap img{
+	width: 180px;
+	margin-bottom: 20px;
+}
+.ceo .brandBtn_wrap span{
+	font-size: 14px;
+	color: #363636;
+	font-fam ily: 'Nanum Myeongjo';
+}
+.ceo .brandBtn_wrap:before{
+	display: block;
+	content: '';
+	clear: both;
+	width: 120px;
+	height: 1px;
+	background-color: #cfcfcf;
+	position: absolute;
+	left: -130px;
+	bottom:10px;
+}
+.ceo .brandBtn_wrap:after{
+	display: block;
+	content: '';
+	clear: both;
+	width: 120px;
+	height: 1px;
+	background-color: #cfcfcf;
+	position: absolute;
+	right: -130px;
+	bottom:10px;
+}
+
+.ceo .webLink{
+	display: block;
+	width: 260px;
+	height: 60px;
+	background-color: #00a7e6;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'JejuGothic';
+	line-height: 60px;
+	text-align: center;
+	margin:auto;
+}
+.email{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.email strong{
+	font-weight: 800;
+}
+.call{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.call strong{
+	font-weight: 800;
+}
+.discoverjeju_contents .email{
+	font-family: 'Nanum Myeongjo';
+}
+.discoverjeju_contents .call{
+	font-family: 'Nanum Myeongjo';
+}
+.sns_wrap{
+	width: 271px;
+	margin: 0 auto 54px;
+}
+.sns_wrap li{
+	float: left;
+	margin:0 21px;
+}
+.sns_wrap li a{
+	text-align: center;
+	font-size: 32px;
+	line-height: 48px;
+}
+.sns_wrap li a img{
+	mar gin-top:10px;
+}
+.sns_wrap2{
+	width: 140px;
+}
+.sns_wrap3{
+	width: 203px;
+}
+.sns_wrap2 li{
+	margin:0 19px;
+}
+/* //discover_jeju */
+#header .inner-wrap .vrmaker_hd a img{
+	margin: 28px auto 27px;
+}
+.vrmaker_visual{
+	width: 100%;
+	background: url(../images/vrmaker_visual.png) no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.vrmaker_visual h1{
+	line-height: 1.5 !important;
+	padding-top:308px;
+	font-family: 'JejuGothic';
+	font-size: 54px;
+}
+
+.vrmaker_contents{
+	font-family: 'JejuGothic';
+}
+#contents .vrmaker_contents h2{
+	font-family: 'JejuGothic';
+}
+.vrmaker_contents .ceo_cnt{
+	width: 200px;
+}
+.vrmaker_contents .ceo h2{
+	font-family: 'JejuGothic';
+}
+.vrmaker_contents .pack ul{
+	width: 740px;
+}
+.vrmaker_contents .pack ul li{
+	width: 300px;
+	height: auto;
+	margin-right: 140px;
+	margin-bottom: 88px;
+	float: left;
+}
+.vrmaker_contents .pack ul li:nth-child(2n){
+	margin-right: 0;
+}
+.vrmaker_contents .pack ul li img{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.vrmaker_contents .pack ul li h3{
+	font-family: 'JejuGothic';
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.vrmaker_contents .pack ul li span{
+	font-size: 16px;
+	line-height: 22px;
+}
+.vrmaker_contents .ceo_cnt li span{
+	font-family: 'JejuGothic';
+}
+.vrmaker_contents .ceo_cnt li p{
+	font-family: 'JejuGothic';
+}
+/* //vrmaker */
+#header .inner-wrap .youyou_hd a img{
+	margin:30px auto;
+}
+.youyou_visual{
+	width: 100%;
+	background: url(../images/youyou_visual.png) no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.youyou_visual h1{
+	line-height: 1.5 !important;
+	font-family: 'JejuGothic';
+	font-size: 54px;
+	padding-top:308px;
+}
+.youyou_contents h2{
+	font-family: 'JejuGothic';	
+}
+.youyou01{
+	background: url(../images/youyou1.png) no-repeat;
+	margin-right: 40px;
+}
+.youyou02{
+	background: url(../images/youyou2.png) no-repeat;
+}
+.youyou03{
+	background: url(../images/youyou3.png) no-repeat;
+	margin-right: 40px;
+}
+.youyou04{
+	background: url(../images/youyou4.png) no-repeat;
+}
+.youyou_cnt h3{
+	color:#fff;
+	font-size: 34px;
+	font-family: 'JejuGothic';
+	margin-bottom:20px;
+	padding-top: 240px;
+}
+.youyou_cnt span{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'JejuGothic';
+	line-height: 1.5;
+}
+.youyou_contents .ceo_cnt{
+	width: 200px;
+}
+.youyou_contents .email, .youyou_contents .call{
+	font-family: 'JejuGothic';
+}
+#contents .youyou_contents .ceo .ceo_txt{
+	font-family: 'JejuGothic';
+}
+.youyou_contents .ceo_cnt li span, .youyou_contents .ceo_cnt li p{
+	font-family: 'JejuGothic';
+}
+/* //youyou */
+#header .inner-wrap .yourfarm_hd a img{
+	margin:30px auto;
+}
+.yourfarm_visual{
+	width: 100%;
+	background: url(../images/yourfarm_visual.png) no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.yourfarm_visual h1{
+	line-height: 1.5 !important;
+	padding-top:308px;
+	font-family: 'JejuGothic';
+	font-size: 54px;
+}
+.yourfarm_contents{
+	text-align: center;
+}
+.yourfarm_contents h2{
+	font-family: 'JejuGothic';
+}
+.yourfarm_contents .yf_icon{
+	margin:161.2px auto 57.3px;
+}
+.yourfarm_contents .yf_txt{
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	color: #363636;
+	font-family: 'JejuGothic';
+}
+.pack .yourfarm_cnt{
+	width: 900px;
+}
+.pack .yourfarm_cnt li{
+	width: 280px;
+	height: auto;
+	margin-bottom:30px;
+	margin-right: 30px;
+}
+.pack .yourfarm_cnt li:nth-child(3n){
+	margin-right: 0;
+}
+.pack .yourfarm_cnt li img{
+	width: 100%;
+}
+.yourfarm_contents .ceo_cnt{
+	width: 200px;
+}
+.yourfarm_map{}
+.yourfarm_map h1{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.yourfarm_map span{
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom:37px;
+}
+/* //yourfarm */
+#header .inner-wrap .jejudronpark_hd a img{
+	margin:35px auto;
+}
+.jejudronpark_visual{
+	width: 100%;
+	background: url(../images/dronpark_visual.png) no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.jejudronpark_visual h1{
+	line-height: 1.5 !important;
+	font-family: 'JejuGothic';
+	font-size: 54px;
+	padding-top:308px;
+}
+.dronpark_contents .dron_img li{
+	width: auto;
+	height: auto;
+	margin-bottom:10px;
+	margin-right: 10px;
+}
+.dronpark_contents .dron_img li:nth-child(2){
+	margin-right: 0;
+}
+.dronpark_contents .dron_img li:nth-child(5){
+	margin-right: 0;
+}
+.dronpark_map h1{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.dronpark_map span{
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom:37px;
+}
+/* //jejudronpark */
+#header .inner-wrap .fenxianghanguo_hd a img{
+	margin:20px auto;
+}
+.fenxianghanguo_visual{
+	width: 100%;
+	background: url(../images/fenxianghanguo_visual.png) no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.fenxianghanguo_visual h1{
+	line-height: 1.5 !important;
+	font-size: 54px;
+	padding-top:308px;
+}
+.fenxianghanguo_contents .hg_item{
+	wid th: 990px;
+}
+.fenxianghanguo_contents .hg_item li{
+	width: 314px;
+	margin-right: 29px;
+}
+.fenxianghanguo_contents .hg_item li:last-child{
+	margin-right: 0;
+}
+.fenxianghanguo_contents .hg_item li img{
+	width: 100%;
+}
+.fenxianghanguo_contents .hg_item li h3{
+	width: 100%;
+	font-size: 20px;
+	color:#363636;
+	margin:29.7px auto 20px;
+	text-align: left;
+}
+.fenxianghanguo_contents .hg_item li span{
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	color: #363636;
+	text-align: left;
+	line-height: 20px;
+}
+.recommend{}
+.recommend h1{
+	font-size: 26px;
+	text-align: center;
+	position: relative;
+}
+.recommend h1:before{
+	clear: both;
+	display: block;
+	content: '';
+	width: 410px;
+	height: 1px;
+	background: #e2e2e2;
+	position: absolute;
+	left: 240px;
+	top: 20px;
+}
+.recommend h1:after{
+	clear: both;
+	display: block;
+	content: '';
+	width: 410px;
+	height: 1px;
+	background: #e2e2e2;
+	position: absolute;
+	right: 240px;
+	top: 20px;
+}
+.recommend .rcmd_tab{
+	width: 522px;
+	height: 50px;
+	margin: 66px auto 86px;
+}
+.recommend .rcmd_tab li{
+	float: left;
+}
+.recommend .rcmd_tab li a{
+	padding: 15px 20px;
+	font-size: 20px;
+	color: #000;
+}
+.recommend .rcmd_tab li a.active{
+	background: #12c2cb;
+	color:#fff;
+}
+
+.recommend .rcmd_wrap{
+	width: 485px;
+	margin:auto;
+	text-align: center;
+	display: none;
+}
+.recommend .rcmd_wrap img{
+	width: 100%;
+}
+.recommend .rcmd_wrap > p{
+	text-align: center;
+	font-size: 16px;
+	color:#505050;
+	margin:36.8px auto 37px;
+}
+.recommend .rcmd_wrap a{
+	text-align: center;
+	font-size: 16px;
+	border-bottom:1px solid #000;
+	padding-bottom:5px;
+}
+/* //fenxianghanguo */
+#header .inner-wrap .dazayo_hd a img{
+	margin:35px auto;
+}
+.dazayo_visual{
+	width: 100%;
+	background: url(../images/dazayo_visual.png) no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.dazayo_visual h1{
+	line-height: 1.5 !important;
+	font-size: 54px;
+	padding-top:308px;
+}
+.dazayo_item{}
+.dazayo_item .itemName{
+	width: 284px;
+	margin: 147px auto 56px;
+	text-align: center;
+}
+.dazayo_item .itemName li{
+	float: left;
+}
+.dazayo_item .itemName li:first-child{
+	margin-right: 30px;
+}
+.dazayo_item .itemName li a{
+	font-size: 26px;
+	color: #363636;
+	padding-bottom: 5px;
+}
+.dazayo_item .itemName li a.active{
+	color:#000;
+	border-bottom: 2px solid #000;
+}
+.item_wrap{
+	display: none;
+}
+#item01{
+	display: block;
+}
+.item_wrap h3{
+	text-align: center;
+	font-size: 18px;
+	color:#363636;
+}
+.item_wrap .items {
+	width: 1000px;
+	margin: 36px auto 80px;
+}
+.item_wrap .items li{
+	width: 232px;
+	height: 232px;
+	overflow: hidden;
+	float: left;
+	margin:0 24px 24px 0;
+}
+.item_wrap .items li:nth-child(4n){
+	margin-right: 0;
+}
+.item_wrap .items li img{
+	width: 100%;
+}
+.dazayo_map{}
+.dazayo_map h1{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.dazayo_map span{
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom:37px;
+}
+.dazayo_contents .ceo_cnt{
+	width: 200px;
+}
+/* //dazayo */
+#header .inner-wrap .evshop_hd a img{
+	margin:20px auto;
+}
+.evshop_visual{
+	width: 100%;
+	background: url(../images/evshop_visual.jpeg) no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 720px;
+}
+.evshop_visual h1{
+	line-height: 1.5 !important;
+	font-size: 54px;
+	padding-top:308px;
+}
+.store_list{}
+.pack .store_list li{
+	width: 280px;
+	height: 280px;
+	text-align: center;
+	color: #fff;
+	margin-right: 80px;
+	margin-bottom: 70px;
+}
+.pack .store_list li h3{
+	font-size: 32px;
+	color: #fff;
+	padding-top: 115px;
+	margin-bottom:20px;
+}
+.pack .store_list li span{
+	font-size: 16px;
+}
+.pack .store_list li a{
+	display: block;
+	width: 70px;
+	height: auto;
+	font-size: 16px;
+	border-bottom:1px solid #fff;
+	color: #fff;
+	text-align: center;
+	margin: 30px auto 0;
+}
+.store_list li:nth-child(1){
+	background: url(../images/ev01.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(2){
+	background: url(../images/ev02.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(3){
+	background: url(../images/ev03.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(4){
+	background: url(../images/ev04.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(5){
+	background: url(../images/ev_new5.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(6){
+	background: url(../images/ev_new1.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(7){
+	background: url(../images/ev_new3.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(8){
+	background: url(../images/ev_new8.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(9){
+	background: url(../images/ev_new2.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(10){
+	background: url(../images/ev_new6.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(11){
+	background: url(../images/ev_new4.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(12){
+	background: url(../images/ev_new7.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(13){
+	background: url(../images/ev_new10.png) no-repeat;
+	background-size: 100%;
+}
+.store_list li:nth-child(3n){
+	margin-right: 0;
+}
+.evshop_contents .visual02{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+}
+.evshop_contents .visual02 img{
+	margin:auto;
+	width: 100%;
+}
+.evshop_contents .ceo_cnt{
+	width: 200px;
+}
+.evshop_contents .ceo .brandBtn_wrap{
+	width: 100%;
+}
+.evshop_contents .ceo .brandBtn_wrap:before{
+	display: none;
+}
+.evshop_contents .ceo .brandBtn_wrap:after{
+	display: none;
+}
+.evshop_contents .ceo .brandBtn_wrap span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.evshop_contents .call{
+	margin-bottom: 5px;
+}
+.evshop_contents .add{
+	font-size: 14px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+/* //evshop */
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+	#header .inner-wrap{width: 100%;}
+	#contents h2{font-size: 20px;}
+	.pack ul{width: 75%;}
+	.pack ul li{width: 48%;}
+	.jeju_bg1,.jeju_bg3{margin-right: 4%;}
+	.pack ul li a h3{font-size: 32px;}
+	.pack ul li a span{font-size: 15px;}
+	.pack ul li a p{font-size: 15px;}
+	.pack ul li a .discover_title:after {left: 101px;}
+	.pack ul li:nth-child(2) a .discover_title:after{ left:  124px;}
+	.pack ul li:nth-child(3) a .discover_title:after{ left: 67px; }
+	.pack ul li:nth-child(4) a .discover_title:after{ left: 85px; }
+	#contents .ceo h2{font-size: 45px;}
+	#contents .ceo .ceo_txt{font-size: 19px;}
+	.ceo_cnt{width: 50%;}
+	.ceo_cnt li{width: 45%; margin-right: 10%;}
+	.ceo_cnt li img{width: 100%;}
+	.ceo_cnt li span{font-size: 22px;}
+	.ceo1 li{width: 100%;}
+	
+	.vrmaker_contents .pack ul{width: 690px;}
+	.vrmaker_contents .pack ul li{width: 270px;}
+	/*//vrmaker*/
+	#contents .discoverjeju_contents .ceo h2{font-size: 50px;}
+	/*//discoverjeju*/
+	.pack .youyou_cnt li{margin-right: 4%;}
+	.pack .youyou_cnt li:nth-child(2n){margin-right: 0;}
+	/*//youyou*/
+
+	/*//yourfarm*/
+	.dronpark_contents .dron_img li img{width: 100%;}
+	.dronpark_contents .dron_img li{margin-right: 1%;overflow:hidden;}
+	.dronpark_contents .dron_img li:nth-child(1){width: 43%;}
+	.dronpark_contents .dron_img li:nth-child(2){width: 56%;}
+	.dronpark_contents .dron_img li:nth-child(3){width: 100%;}
+	.dronpark_contents .dron_img li:nth-child(4){width: 64%;}
+	.dronpark_contents .dron_img li:nth-child(5){width: 35%;}
+	/*//dronepark*/
+	.item_wrap .items{width: 85%;}
+	.item_wrap .items li{width: 24%;height: auto; margin:0 11px 11px 0;}
+	/*//dazayo*/
+	.fenxianghanguo_contents .hg_item{width: 85%;}
+	.fenxianghanguo_contents .hg_item li{width: 32%;height: auto;margin-right: 2%;}
+	.fenxianghanguo_contents .hg_item li h3{font-size: 19px;}
+	/*//fenxianghanguo*/
+	.pack .store_list{width: 85%;}
+	.pack .store_list li{width: 30%;margin-right: 5%;margin-bottom: 40px;}
+	.pack .store_list li:nth-child(3n){margin-right: 0;}
+	.pack .store_list li h3{font-size: 28px;}
+	.pack .store_list li span, .pack .store_list li a{font-size: 15px;}
+	.evshop_contents .visual02 {width: 90%;margin:auto;}
+	.evshop_contents .visual02 img{width: 100%;}
+	/*//evshop*/
+}
+@media (max-width: 768px) {
+	#visual{height: 470px;}
+	#visual h1{font-size: 28px;}
+	#visual h1{line-height: 470px;}
+	#contents h2{font-size: 16px; margin:115px auto 70px;}
+	#contents .ceo h2{font-size: 36px; margin:68px auto 30px;}
+	#contents .ceo .ceo_txt{font-size: 16px;}
+	.pack ul{width: 85%;margin:114px auto 58px;}
+	.pack ul li a h3{font-size: 26px;}
+	.pack ul li a span{font-size: 14px;}
+	.pack ul li a p{font-size: 14px}
+	.pack ul li a .discover_title:after {left: 71px;}
+	.pack ul li:nth-child(2) a .discover_title:after{ left:  94px;}
+	.pack ul li:nth-child(3) a .discover_title:after{ left: 37px; }
+	.pack ul li:nth-child(4) a .discover_title:after{ left: 56px; }
+	.ceo_cnt li span{font-size: 20px;margin-bottom: 15px;}
+	.ceo_cnt li p{font-size: 13px;}
+	
+	.vrmaker_visual h1,.youyou_visual h1, .yourfarm_visual h1,.jejudronpark_visual h1,.dazayo_visual h1,.fenxianghanguo_visual h1,.evshop_visual h1{padding-top: 198px;}
+	.vrmaker_contents .pack ul{width: 70%;}
+	.vrmaker_contents .pack ul li{width: 45%;margin-right: 10%;}
+	.vrmaker_contents .pack ul li:nth-child(2n){margin-right: 0;}
+	.vrmaker_contents .pack ul li h3{line-height: 25px;font-size: 22px;}
+	.vrmaker_contents .pack ul li span{font-size: 15px;}
+	/*//vrmaker*/
+	#contents .discoverjeju_contents .ceo h2{font-size: 45px;}
+	#contents .discoverjeju_contents h2{width: 80%;}
+	/*//dicoverjeju*/
+	.youyou_cnt h3{font-size: 29px;}
+	.youyou_cnt span{font-size: 14px;}
+	.pack .yourfarm_cnt{width: 90%;}
+	.pack .yourfarm_cnt li{width: 31%;margin-right: 3.5%;}
+	#map,#map2,#map3{width: 90% !important;height: 400px;margin: auto;}
+	/*//youyou*/
+	.item_wrap .items{width: 90%;}
+	.item_wrap .items li{width: 24%;height: auto; margin:0 1% 9px 0;}
+	/*//dazayo*/
+	.fenxianghanguo_contents .hg_item li h3{font-size: 18px;line-height: 26px;margin: 15.7px auto 6px;}
+	.fenxianghanguo_contents .hg_item li span{font-size: 14px;}
+	/*//fenxianghanguo*/
+	.pack .store_list li{height: 200px;}
+	.pack .store_list li h3{font-size: 22px;padding-top: 85px;}
+	.pack .store_list li span, .pack .store_list li a{font-size: 13px;}
+	.pack .store_list li a{width: 60px;margin: 20px auto 0;}
+	/*//evshop*/
+
+}
+@media (max-width: 576px) {
+	#footer{margin-top: 147px;}
+	#footer .inner-wrap{margin:42px auto 44px;}
+	#footer .inner-wrap .address{font-size: 12px;margin-bottom: 7px;}
+	#footer .inner-wrap .copyright{font-size: 10px;}
+	.pack ul{margin:84px auto 58px;}
+	#contents .ceo h2{font-size: 30px;}
+	#visual h1{line-height: 320px;}
+
+	.vrmaker_contents h2{width: 85%;}
+	.ceo .brandBtn_wrap:before{width: 80px;left: -90px;}
+	.ceo .brandBtn_wrap:after{width: 80px;right: -90px;}
+	.ceo .discoverBtn_wrap:before{width: 80px;left: -90px;}
+	.ceo .discoverBtn_wrap:after{width: 80px;right: -90px;}
+	/*//vrmaker*/
+
+	.discoverjeju_contents .pack ul{width: 100%;}
+	.discoverjeju_contents .pack ul li{width: 50%;height: 320px; margin:0;}
+	.discoverjeju_contents .pack ul li a span{wid th: 71%; margin: 0 auto 52px;font-size: 13px;}
+	.discoverjeju_contents .pack ul li a p{font-size: 13px;}
+	.discoverjeju_contents .pack ul li a h3{font-size: 23px;}
+	.discoverjeju_contents .pack ul li a img{width: 35%;margin:37px auto 37px;}
+	.pack ul li a .discover_title:after{width: 130px;left: 64px;}
+	.pack ul li:nth-child(2) a .discover_title:after{width: 97px;left: 79px;}
+	.pack ul li:nth-child(3) a .discover_title:after{width: 177px;left: 38px;}
+	.pack ul li:nth-child(4) a .discover_title:after{width: 155px;left: 49px;}
+	#contents .discoverjeju_contents .ceo h2{font-size: 35px;}
+	#contents .discoverjeju_contents .ceo .ceo_txt{width: 80%;margin:auto;}
+	.discoverjeju_contents .ceo_cnt{width: 57%;}
+	.ceo .discoverBtn_wrap img{width: 75%;}
+	.ceo .discoverBtn_wrap span{display: block;}
+	/*//discoverjeju*/
+	.pack .youyou_cnt{width: 100%;}
+	.pack .youyou_cnt li{width: 100%;margin-bottom: 0;}
+	/*//youyou*/
+	.pack .yourfarm_cnt li{width: 48%;margin-right: 4% !important;margin-bottom: 15px;}
+	.pack .yourfarm_cnt li:nth-child(2n){margin-right: 0 !important;}
+	/*//yourfarm*/
+	#contents .dazayo_contents h2{width: 60%;}
+	.dazayo_item .itemName{width: 255px;margin:97px auto 36px;}
+	.dazayo_item .itemName li a{font-size: 23px;}
+	.item_wrap h3{font-size: 16px;width: 62%;margin:auto;}
+	.item_wrap .items li{width: 49%;}
+	.item_wrap .items li:nth-child(2n){margin-right: 0;}
+
+	#contents .dazayo_contents .ceo .ceo_txt{width: 80%;margin:auto;}
+	/*//dazayo*/
+	.recommend h1:before{width: 140px;left: 290px;}
+	.recommend h1:after{width: 140px;right: 290px;}
+	/*//fenxianghanguo*/
+	.pack .store_list li{width: 48%;height: 250px; margin-right: 4%;margin-bottom:0;}
+	.pack .store_list li:nth-child(3n){margin-right: 4%;}
+	.pack .store_list li:nth-child(2n){margin-right: 0;}
+	.pack .store_list li h3{padding-top:95px;}
+	.evshop_contents .visual02 img{margin: 40px auto 10px;}
+	/*//evshop*/
+}
+@media (max-width: 480px) {
+	#footer .inner-wrap .address{display: block;width: 75%;margin:0 auto 7px;}
+	#footer .inner-wrap .copyright{display: block;width: 80%; margin:auto;}
+	#visual{height: 320px;}
+	#visual h1{font-size: 22px;}
+	#contents h2{margin:85px auto 50px;}
+	#contents .ceo h2{font-size: 22px;margin: 68px auto 15px;}
+	#contents .ceo .ceo_txt{font-size: 14px;}
+	#contents .ceo1{width: 40%;}
+	.ceo_cnt li img{margin:70px auto 30px;}
+	.ceo .brandBtn_wrap img{width: 150px;}
+	.ceo .brandBtn_wrap span{display: block;font-size: 13px;}
+	#map,#map2,#map3{height: 250px;}
+
+	.vrmaker_visual h1, .youyou_visual h1, .yourfarm_visual h1, .evshop_visual h1,.jejudronpark_visual h1,.dazayo_visual h1,.fenxianghanguo_visual h1,.evshop_visual h1{font-size: 24px !important;padding-top: 138px;}
+	.vrmaker_contents h2{width: 82%;}
+	.vrmaker_contents .pack ul{width: 80%;}
+	.vrmaker_contents .pack ul li{width: 47%;margin-right: 6%;margin-bottom: 30px;}
+	.vrmaker_contents .pack ul li h3{font-size: 20px;}
+	.vrmaker_contents .pack ul li span{font-size: 13px;}
+	/*//vrmaker*/
+	#contents .discoverjeju_contents .ceo h2{font-size: 30px;}
+	.discoverjeju_contents .ceo_cnt li span{line-height: 22px;}
+	.ceo .discoverBtn_wrap img{width: 65%;}
+	.ceo .discoverBtn_wrap span{font-size: 13px;}
+	.discoverjeju_contents .pack ul li{width: 100%;}
+	.discoverjeju_contents .pack ul li a h3{font-size: 21px;}
+	.pack ul li a .discover_title:after{width: 113px;left: 50%; margin-left: -56.5px;}
+	.pack ul li:nth-child(2) a .discover_title:after{width: 87px;left: 50%; margin-left: -43.5px;}
+	.pack ul li:nth-child(3) a .discover_title:after{width: 153px;left: 50%; margin-left: -76.5px;}
+	.pack ul li:nth-child(4) a .discover_title:after{width: 132px;left: 50%;margin-left: -66px;}
+	.discoverjeju_contents .pack ul li a span{margin:0 auto 42px;}
+	/*//discoverjeju*/
+	.youyou_contents h2{width: 80%;}
+	/*//youyou*/
+	.yourfarm_contents h2{width: 62%;}
+	.yourfarm_contents .yf_icon{width: 50%;}
+	.yourfarm_contents .yf_txt{font-size: 20px;}
+	/*//yourfarm*/
+	#contents .dronpark_contents h2{width: 69%;}
+	.dronpark_contents .dron_img li{margin-bottom: 3px;}
+	/*//dronepark*/
+	.item_wrap .items li{margin: 0 1% 4px 0;}
+	/*//dazayo*/
+	#contents .fenxianghanguo_contents h2{width: 67%;}
+	.fenxianghanguo_contents .hg_item li{width: 100%;margin-right: 0;}
+	.recommend .rcmd_tab{width: 95%;margin:46px auto 36px;}
+	.recommend .rcmd_tab li a{font-size: 15px;padding:15px;}
+	.recommend .rcmd_wrap{width: 80%;}
+	.recommend .rcmd_wrap > p{font-size: 15px;}
+	.recommend .rcmd_wrap a{font-size: 15px;}
+	#contents .fenxianghanguo_contents .ceo h2{width: 100%;}
+	.recommend h1:before{width: 120px;left: 270px;}
+	.recommend h1:after{width: 120px;right: 270px;}
+	/*//fenxianghanguo*/
+	#contents .evshop_contents h2{width: 68%;}
+	#contents .evshop_contents .ceo h2{width: 100%;}
+	.pack .store_list{width: 90%;}
+	.pack .store_list li{width: 48%;margin-right: 4%;margin-bottom:0;}
+	.pack .store_list li:nth-child(3n){margin-right: 4%;}
+	.pack .store_list li:nth-child(2n){margin-right: 0;}
+	.evshop_contents .visual02 img{margin: 40px auto 10px;}
+	.pack .store_list li h3{font-size: 19px;margin-bottom:10px;}
+	.pack .store_list li span, .pack .store_list li a{font-size: 12px;}
+	.pack .store_list li a{width: 50px; margin: 16px auto 0;}
+	/*//evshop*/
+}
+@media (max-width: 380px) {
+
+	#contents h2{font-size: 14px;}
+	#visual h1{font-size: 19px;}
+	#map,#map2,#map3{height: 230px;}
+
+	.ceo .brandBtn_wrap:before{width: 60px;left: -70px;}
+	.ceo .brandBtn_wrap:after{width: 60px;right: -70px;}
+	.ceo .discoverBtn_wrap:before{width: 60px;left: -70px;}
+	.ceo .discoverBtn_wrap:after{width: 60px;right: -70px;}
+	.vrmaker_visual h1, .youyou_visual h1, .yourfarm_visual h1,.jejudronpark_visual h1,.dazayo_visual h1,.fenxianghanguo_visual h1,.evshop_visual h1{font-size: 22px !important}
+	.vrmaker_contents h2{width: 87%;}
+	.vrmaker_contents .pack ul li{width: 48%;margin-right: 4%;}
+	.vrmaker_contents .pack ul li h3{font-size: 18px;margin-bottom: 10px;}
+	.vrmaker_contents .pack ul li span{font-size: 12px;}
+	.vrmaker_contents .pack ul li img{margin-bottom: 25px;}
+	/*//vrmaker*/
+
+	/*//discoverjeju*/
+	.pack .youyou_cnt li{height: 330px;}
+	.youyou_cnt h3{padding-top: 200px;}
+	/*//youyou*/
+	.pack .yourfarm_cnt li{width: 100%;margin-bottom:20px;}
+	/*//yourfarm*/
+	.recommend .rcmd_tab li a{font-size: 14px;padding:12.5px;}
+	.recommend h1{font-size: 24px;}
+	.recommend h1:before{width: 90px;left: 250px;}
+	.recommend h1:after{width: 90px;right: 250px;}
+	/*//fenxianghanguo*/
+	.pack .store_list li h3{padding-top: 72px;font-size: 18px;}
+	#contents .evshop_contents .ceo .ceo_txt{width: 64%;margin:auto;}
+}
+@media (max-width: 360px){
+	.vrmaker_contents .pack ul{width: 83%;}
+	#contents .ceo h2{font-size: 21px;}
+	/*//vrmaker*/
+
+	.yourfarm_contents h2{width: 68%;}
+	/*//yourfarm*/
+
+	/*//fenxianghanguo*/
+}
+@media (max-width: 320px) {
+	#footer .inner-wrap .address{width: 78%;}
+	#visual{height: 230px;}
+	#visual h1{line-height: 230px;font-size: 17px;}
+	#contents h2{margin:75px auto 40px;}
+	.pack ul{margin:74px auto 58px;}
+	#contents .ceo h2{font-size: 19px;}
+	#contents .ceo .ceo_txt{font-size: 12px;}
+	.ceo_cnt li img{margin:50px auto 30px;}
+	.ceo .brandBtn_wrap img{width: 130px;}
+	.ceo .brandBtn_wrap:before{width: 40px;left: -50px;}
+	.ceo .brandBtn_wrap:after{width: 40px;right: -50px;}
+	.ceo .discoverBtn_wrap:before{width: 40px;left: -50px;}
+	.ceo .discoverBtn_wrap:after{width: 40px;right: -50px;}
+	#map,#map2,#map3{height: 190px;}
+
+	.vrmaker_visual h1, .youyou_visual h1, .yourfarm_visual h1,.jejudronpark_visual h1,.jejudronpark_visual h1,.dazayo_visual h1,.fenxianghanguo_visual h1,.evshop_visual h1{font-size: 19px !important;padding-top: 98px;}
+	.vrmaker_contents .pack ul{width: 90%;}
+	.vrmaker_contents .pack ul li{width: 45%;margin-right: 10%;}
+	.vrmaker_contents .pack ul li h3{font-size: 17px;}
+	/*//vrmaker*/
+	.youyou_cnt h3{padding-top:170px;font-size: 26px;}
+	.pack .youyou_cnt li{height: 300px;}
+	/*//youyou*/
+	.yourfarm_contents .yf_txt{font-size: 17px;}
+	/*//yourfarm*/
+	.fenxianghanguo_contents .hg_item{width: 90%;}
+	.recommend h1{font-size: 22px;}
+	.recommend h1:before{width: 70px;left: 230px;}
+	.recommend h1:after{width: 70px;right: 230px;}
+	.fenxianghanguo_contents .hg_item li h3{font-size: 17px;}
+	.recommend .rcmd_tab li a{font-size: 14px; padding: 10px 5.5px;}
+	.recommend .rcmd_wrap{width: 81%;}
+	/*//fenxianghanguo*/
+	.pack .store_list{width: 95%;}
+	.pack .store_list li{width: 49.5%;height: 157px; margin-right: 1%}
+	.pack .store_list li:nth-child(3n){margin-right: 1%;}
+	.pack .store_list li:nth-child(2n){margin-right: 0;}
+	.pack .store_list li h3{padding-top: 62px;}
+	.pack .store_list li span, .pack .store_list li a{font-size: 11px;}
+	#contents .evshop_contents .ceo1{width: 41%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
